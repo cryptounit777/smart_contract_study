@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_payer",
+						"type": "address"
+					}
+				],
+				"name": "pay",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Example_Calls/DelegateCall.sol": "IDemo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Example_Calls/DelegateCall.sol": {
+			"keccak256": "0xe9016d39fde982fcc79aa901b926b0bfcddca50381d0eb9359c7a7f0774dc1ef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eeab5a740f176991485a4802412eefad9a300dcc1c0675b08b271add592d9e2e",
+				"dweb:/ipfs/Qmf5AF31ogB1Gz3J6nrUKSEJYgrKmiMsC3tC1pvEaoKdxW"
+			]
+		}
+	},
+	"version": 1
+}

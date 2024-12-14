@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract ICallFromOther",
+						"name": "_demoAddr",
+						"type": "address"
+					}
+				],
+				"name": "callGetName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract ICallFromOther",
+						"name": "_pay",
+						"type": "address"
+					}
+				],
+				"name": "callPay",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract ICallFromOther",
+						"name": "_name",
+						"type": "address"
+					}
+				],
+				"name": "callSetName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Example_Calls/Interface.sol": "toCallFromOther"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Example_Calls/Interface.sol": {
+			"keccak256": "0xf64026c6dbce112495f9201aa74689b7b15df366b85d3c395e06b4c171f6868a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9fe8250a1c3418d23abf983f12546ee92a26411a4463dca96f5bf76d47302e69",
+				"dweb:/ipfs/QmcrNQw5TY1xSiaDoeX3ZNhzFEH8YY3bpJ3SNJiAd86YEj"
+			]
+		}
+	},
+	"version": 1
+}
